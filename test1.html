@@ -1,0 +1,725 @@
+<!doctype html>
+<html lang="en">
+<head>
+  	<meta charset="UTF-8">
+  	<title>test1</title>
+</head>
+<body>
+	<style type="text/css">
+		#guide{
+			height: 30px;
+			width: 1600px;
+			background-color: black;
+			color: white;
+		}
+		#guide li{		
+			font-size: 14px;
+			float: left;
+			margin-left: 20px;
+			margin-right: 20px;
+			margin-top: 5px;
+		}
+		#guide ul{
+			margin-left: 320px;
+		}
+		#account {
+			list-style: none;	
+		}
+		#s{
+			float: left;
+			margin-left: 100px;
+		}
+		#b{
+			float: left;
+			margin-left: 60px;
+		}
+		#contanct li{
+			list-style: none;	
+			margin-top: 5px;
+		}
+		#head{
+			height: 99px;
+			width:1600px;
+			background: url(../images/head1.png) ;
+		}
+		#Layer19{
+			float: left;
+			margin-left: 320px;
+			margin-top: 10px;
+		}
+		#Layer3{
+			position: absolute;
+			top: 45px;
+			left: 450px;
+			height: 99px;	
+		}
+		#ecommerce{
+			position:relative;
+			top:7px;
+			left:250px;
+		}
+		#website{
+			position:relative;
+			top:52px;
+			left:40px;
+		}
+		#bagred{
+			position:relative;
+			top:40px;
+			right:390px;
+		}
+		#checkout{
+			position:absolute;
+			bottom:765px;
+			left:449px;
+		}
+		#bagword{
+			position:absolute;
+			bottom:800px;
+			left:410px;
+		}
+		#GO{
+			position: absolute;
+			left: 1260px;
+			top:85px;
+		}
+		#Layer15{
+			position: absolute;
+			left: 1250px;
+			top:80px;
+		}
+		#search{
+			position: absolute;
+			left: 1000px;
+			top:80px;
+			width: 250px;
+			height: 25px;
+		}
+		#home{
+			height: 40px;
+			width: 1600px;
+			background-image: url(../images/head2.png);
+			background-color: rgb(162,19,2);
+			color: white;
+		}
+		#home ul li{
+			float: left;
+			margin-left: 20px;
+			margin-right: 20px;
+			list-style:none;
+			color: white;
+			font-size: 15px;
+		}
+		#home ul {
+			margin-left: 300px;
+			margin-right: 200px;
+			height: 30px;
+			position: absolute;
+			top: 140px
+		}
+		#HOME{
+			background-image: url(../images/homered.png);  
+		}
+		#body{
+			height: 1300px;
+			width: 1600px;
+			border: 1px solid black;			
+		}
+		#menu{
+			width: 1000px;
+			height: 1280px;
+			float: left;
+			margin-left: 300px;
+			margin-top: 20px;
+			background: url(../images/background.png) ;
+		}
+		#menuhead{
+			width:960px;
+			height:323px;
+			margin-left: 17px;
+			background: url(../images/blue.png) ;
+		}
+		#layer42{
+			position: absolute;
+			top: 232px;
+			left: 1010px;
+		}
+		#sale{
+			position: absolute;
+			top: 290px;
+			left:396px;
+		}
+		#Festival{
+			position: absolute;
+			left: 423px;
+			top: 257px;
+		}
+		#wine{
+			position: absolute;
+			top: 290px;
+			left: 836px;
+		}
+		#PRODUCT{
+			color: rgb(255,198,0);
+			font-family: 微软雅黑;
+			font-size: 32px;
+			position: absolute;
+			top: 475px;
+			left: 364px;
+		}
+		#blackwords{
+			display: block;
+			width: 600px;
+			height: 35px;
+			color: rgb(255,204,204);
+			font-size: 11px;
+			position: relative;
+			bottom: 45px;	
+			left: 310px;
+		}
+		#black{
+			width:939px;
+			height: 53px;
+			float: left;
+			margin-top: 270px;
+			margin-left: 28px;
+		}
+		#topblack{
+			position: absolute;
+			top: 472px;
+			left: 335px;
+		}
+		#grad1{
+			height: 183px;
+			background: -webkit-linear-gradient(gray,white);//背景颜色渐变
+			background: -o-linear-gradient(gray,white);
+			background: -moz-linear-gradient(gray,white);
+			background: linear-gradient(gray,white);
+		}
+		#redbg{
+			width: 209px;
+			height:30px;
+			margin-top: 30px;
+			margin-left: 30px;
+			background-image: url(../images/middilred.png);
+		}
+		#redbg p{
+			color: white;
+			position: relative;
+			left: 30px;
+			bottom: 35px;
+		} 
+		#redbg a {
+			text-decoration: none;
+		}	
+		#lside{
+			width: 209px;
+			height: 390px;
+			margin-left: 30px;
+			background-image: url(../images/lside.png);
+		}
+		#lside  p{
+			color: white;
+			font-family: 粗体;
+			font-size: 13px;
+		}
+		#mytable{
+			font-style: none;
+			font-family: 黑体;
+			background-image: url(../images/lside.png);
+			font-size: 14px;
+		}
+		#mytable td{
+			text-align: center;	
+		}
+		#lside a{
+			color: black;
+			list-style: none;
+			text-decoration: none;
+		}
+		#mytable hr{
+			color: white;
+			width: 196px;
+		}
+		#myselect{
+			float: left;
+			font-size: 13px;
+			color: #000000;
+			width: 380px;
+			height: 30px;
+			margin-left: 265px;
+			text-align: left;
+			margin-top: 40px;
+		}
+		#items	{
+			width: 200px;
+			height: 30px;
+			float: right;
+			margin-top: 40px;
+			margin-right: 60px;
+			color: gray;
+			font-size: 12px;
+			word-spacing: 2px;
+		}
+		#items span{
+			letter-spacing: 2px;
+		}
+		.span2{
+			color: red;
+		}
+		.menudiv{
+			width: 155px;
+			height: 155px;
+			float: left;
+			margin-left: 15px;
+			margin-bottom: 49px;	
+		}
+		#p12345{
+			width: 235px;
+			height: 40px;
+			position: absolute;
+			top: 1211px;
+			left:830px;
+		}
+		#mymenu{
+			width: 706px;
+			height: 643px;
+			margin-right: 40px;
+			float: right;
+		}
+		.pricesize{
+			font-size: 13px;
+		}
+		.pricecolor{
+			color: red;
+		}
+		.PNgray{
+			color: gray;
+		}
+		#FEATURED{
+			position: absolute;
+			left: 574px;
+			top:1251px;
+		}
+		#lside2{
+			width: 209px;
+			height: 280px;
+			margin-left: 30px;
+			background-image: url(../images/lside2.png);
+			padding: 10px;
+			color: gray;
+		}
+		#pcrside2{
+			position: absolute;
+			left: 339px;
+		}
+		#join{
+			width: 175px;
+			height:30px;
+			margin-left: 5px;
+			margin-top: 9px;
+		}
+		#lside3{
+			width: 209px;
+			height: 210px;
+			margin-left: 30px;
+			float: left: ;
+			clear: left;
+		}
+		#rside2{
+			float: right;
+			width: 710px;
+			height: 200px;
+			margin-right: 35px;
+			background-image: url(../images/graybg.png);
+		}
+		#goleft{
+			position: absolute;
+			left: 560px;
+			top: 1350px;
+		}
+		#goright{
+			position: absolute;
+			left: 1240px;
+			top: 1350px;
+		}
+		#ltriangle{
+			position: absolute;
+			left: 570px;
+			top: 1360px;
+		}
+		#rtriangle{
+			position: absolute;
+			left: 1255px;
+			top: 1360px;
+		}
+		.pic{
+			width: 147px;
+			height: 140px;
+			float: left;
+			margin-top: 20px;
+			margin-left: 40px;
+			margin-right: 10px;
+			padding: 15px;
+		}
+		.discrib{
+			font-size: 12px;
+			color: rgb(102,0,0);
+			text-align: center;
+		}
+		#foot{
+			width: 1600px;
+			height: 240px;
+			border: 1px solid black;
+		}
+		#foottop{
+			float: left;
+		}
+		#tips{
+			float: left;
+			color: white;
+			width: 1600px;
+			background-image: url( ../images/foottop.png );
+		}
+		#footpic1{
+			margin-left: 100px;
+			float: left;
+		}
+		#footpic2{
+			margin-top: 10px;
+			margin-left: 50px;
+			float: left;
+		}
+		.tipword{
+			margin-bottom: 10px;
+			display: block;
+			float:left;
+			padding-top: 20px;
+			padding-left: 10px;
+		}
+		#GO2{
+			position: absolute;
+			left:1248px;
+			top:1510px;
+		}
+		#Layer152{
+			position: absolute;
+			left:1240px;
+			top:1505px;
+		}
+		#search2{
+			position: absolute;
+			left: 988px;
+			top:1505px;
+			width: 250px;
+			height: 25px;
+		}
+		#customers{
+			color: white;
+			width: 1600px;
+			height: 183px;
+			margin-left: 100px;
+			font-size: 13px;
+			text-align: left;
+		}
+		#customers tr  {
+			height: 20px;
+		}
+		#customers td{
+			width: 10px;
+		}
+		#Information a{
+			color: white;
+			text-decoration: none;
+		}
+		#Information:hover{
+			color: red;
+		}
+		#Information{
+			background-image: url(../images/footbom.png);	
+		}
+		#sendcolor{
+			color: yellow;
+		}
+	</style>
+	<div id="guide">
+		<ul>
+			<li id="account">Account Sign In</li>
+			<li>Register</li>
+			<li>Buyer Guide</li>
+			<li>About</li>
+			<li>Blog</li>
+			<li>Contanct</li>
+		</ul>
+		<div  id="contanct">
+			<img  id="s" src="../images/test1_09.jpg" alt=" contanct" >
+			<li>123.456.7890</li>
+			<img   id="b" src="../images/test1_11.jpg" alt="Live Help">
+			&nbsp&nbsp&nbsp<img src="../images/test1_13.jpg" alt="  ">
+			<img src="../images/test1_15.jpg" alt="  ">
+			<li>Live Help</li>
+		</div>
+	</div>
+	<div id="head">
+		<img  id="Layer19"src="../images/Layer 19.png" alt=" ">
+		<img  id="Layer3"src="../images/Layer 3.png" alt=" ">
+		<img  id="ecommerce"src="../images/ecommerce.png" alt=" ">
+		<img  id="website"src="../images/website.png" alt=" ">
+		<img  id="bagred"src="../images/bagred.png" alt=" ">
+		<a href="https://www.baidu.com"><img  id="checkout"src="../images/checkout.png" alt=" "><a/>
+		<img  id="bagword"src="../images/bagword.png" alt=" ">
+		 <form  name="search"regform method="post" action="http//www.baidu.com.cn" >
+	 		<input type="text" name="search" id="search" value="Search website" >
+		 </form>
+		<img  id="Layer15"src="../images/Layer 15 copy .png" alt=" ">
+		<a href="https://www.baidu.com"><img  id="GO"src="../images/go.png" alt=" "></a>
+	</div>
+	<div id="home">
+		<ul>
+			<a href="https://www.baidu.com"><li id="HOME">HOME</li></a>
+			<a href="https://www.baidu.com"><li>LATEST ARRIVALS</li></a>
+			<a href="https://www.baidu.com"><li>MEN'S</li></a>
+			<a href="https://www.baidu.com"><li>WOMEN'S</li></a>
+			<a href="https://www.baidu.com"><li>KIDS</li></a>
+			<a href="https://www.baidu.com"><li>BEANDS</li></a>
+			<a href="https://www.baidu.com"><li>SALE</li></a>
+			<a href="https://www.baidu.com"><li>GIFT CARDS</li></a>
+			<a href="https://www.baidu.com"><li>FREEBIES</li></a>
+		</ul>
+	</div>
+	<div id="menu">
+		<div id="black"></div>
+		<div id="menuhead">
+			<img  id="layer42"src="../images/layer 42.png" alt="">
+			<img  id="sale"src="../images/sale.png" alt="">
+			<img  id="wine"src="../images/wine.png" alt="">
+			<img  id="Festival"src="../images/Festival Offer.png" alt="">
+			<img  id="topblack"src="../images/topblack.png" alt="">
+			<span id="PRODUCT">PRODUCT TITLE</span>
+			<span id="blackwords">_orem ipsum dolor sit amet,consectetur adipiscing elit. Cras suscipit lacus dapibus ante mattis in adipiscing nibh placerat. Cras bibendum porta diam, non dignissim sapien malesuada vitae.</span>
+		</div>	
+		<div id="myselect">
+			Sort by:
+			<select name="Ascending" id="Ascending">
+				<option selected="selected" value="Ascending">Ascending</option>
+			</select>
+			<select name="Product Name" id="Product Name">
+				<option selected="selected" value="Product Name">Product Name</option>
+			</select>
+			<select name="Brand Name" id="Brand Name">
+				<option selected="selected" value="Brand Name">Brand Name</option>
+			</select>
+		</div>
+		<p id="items">Items per page:<span id="span1">12/20/<span class="span2">30</span>/<span class="span2">50</span></span></p>
+		<div id="mymenu">
+			<div class="menudiv">
+				<img src="../images/rside1.png" alt="">
+				<span>Product Name</span><br>
+				<span class="pricesize">$ <span class="pricecolor">12.99</span> </span>
+			</div>
+			<div class="menudiv">
+				<img src="../images/rside2.png" alt="">
+				<span class="PNgray">Product Name</span><br>
+				<span class="pricesize">$ <span class="pricecolor">12.99</span> </span>
+			</div>
+			<div class="menudiv">
+				<img src="../images/rside3.png" alt="">
+				<span class="PNgray">Product Name</span><br>
+				<span class="pricesize">$ <span class="pricecolor">12.99</span> </span>
+			</div>
+			<div class="menudiv">
+				<img src="../images/rside4.png" alt="">
+				<span class="PNgray">Product Name</span><br>
+				<span class="pricesize">$ <span class="pricecolor">12.99</span> </span>
+			</div>
+			<div class="menudiv">
+				<img src="../images/rside5.png" alt="">
+				<span class="PNgray">Product Name</span><br>
+				<span class="pricesize">$ <span class="pricecolor">12.99</span> </span>
+			</div>
+			<div class="menudiv">
+				<img src="../images/rside6.png" alt="">
+				<span class="PNgray">Product Name</span><br>
+				<span class="pricesize">$ <span class="pricecolor">12.99</span> </span>
+			</div>
+			<div class="menudiv">
+				<img src="../images/rside7.png" alt="">
+				<span class="PNgray">Product Name</span><br>
+				<span class="pricesize">$ <span class="pricecolor">12.99</span></span>
+			</div>
+			<div class="menudiv">
+				<img src="../images/rside8.png" alt="">
+				<span class="PNgray">Product Name</span><br>
+				<span class="pricesize">$ <span class="pricecolor">12.99</span> </span>
+			</div>
+			<div class="menudiv">
+				<img src="../images/rside9.png" alt="">
+				<span class="PNgray">Product Name</span><br>
+				<span class="pricesize">$ <span class="pricecolor">12.99</span> </span>
+			</div>
+			<div class="menudiv">
+				<img src="../images/rside10.png" alt="">
+				<span class="PNgray">Product Name</span><br>
+				<span class="pricesize">$ <span class="pricecolor">12.99</span> </span>
+			</div>
+			<div class="menudiv">
+				<img src="../images/rside11.png" alt="">
+				<span class="PNgray">Product Name</span><br>
+				<span class="pricesize">$ <span class="pricecolor">12.99</span> </span>
+			</div>
+			<div class="menudiv">
+				<img src="../images/rside12.png" alt="">
+				<span class="PNgray">Product Name</span><br>
+				<span class="pricesize">$ <span class="pricecolor">12.99</span> </span>
+			</div>
+			<div id="p12345"><img src="../images/12345.png" alt=""></div>
+		</div>
+		<div id="redbg">
+			<a href="https://www.baidu.com" ><p>Browse Categories</p></a>
+		</div>
+		<div id="lside">
+			<a href="http//www.baidu.com"><table  id="mytable"border="0"  width="209px"  height="250px"  cellpadding="0px" cellspacing="0px">
+				<tr>
+					<td>Lorem ipsum dolor sit<hr/></td>
+				</tr>
+				<tr>
+					<td>Amet consectetur<hr/></td>
+				</tr>
+				<tr>
+					<td>Adipiscin elit<hr/></td>
+				</tr>
+				<tr>
+					<td>Cras suscipit lacus<hr/></td>
+				</tr>
+				<tr>
+					<td>Dapibus ante placerat<hr/></td>
+				</tr>
+				<tr>
+					<td>Adipiscing nibh placerat<hr/></td>
+				</tr>
+				<tr>
+					<td>Cras bibendum<hr/></td>
+				</tr>
+				<tr>
+					<td>Porta diam elit<hr/></td>
+				</tr>
+				<tr>
+					<td>Adipiscing nibh placerat<hr/></td>
+				</tr>
+				<tr>
+					<td>Cras bibendum<hr/></td>
+				</tr>
+				<tr>
+					<td>Porta diam elit<hr/></td>
+				</tr>
+			</table></a>
+
+		</div>
+		<div id="lside2">Join our newsletter list to get the latest updates
+			 <form  name="join"regform method="post" action="http//www.baidu.com.cn" >
+	 			<input type="text" name="join" id="join" >
+		 	</form>
+			<img id="pcrside2"src="../images/rside2.jpg" alt="  ">
+		</div>
+			<span id="FEATURED">FEATURED PRODUCTS</span>
+		<div id="rside2">
+			<img id="goleft"src="../images/goleft.png" alt="">
+			<img id="goright"src="../images/goright.png" alt="">
+			<a href="https://www.baidu.com"><img id="ltriangle"src="../images/ltriangle.png" alt=""></a>
+			<a href="https://www.baidu.com"><img id="rtriangle"src="../images/rtriangle.png" alt=""></a>
+			<div class="pic">
+				<img id="firstpic"src="../images/firstpic.png" alt="">
+				<span class="discrib">Elegant MP3 playe skin PSD download</span>
+			</div>
+			<div class="pic">
+				<img id="secpic"src="../images/secpic.png" alt="">
+				<span class="discrib">Download shopping bag &amp icons(PSD &amp PNG)</span>
+			</div>
+			<div class="pic">
+				<img id="thirdpic"src="../images/thirdpic.png" alt="">
+				<span class="discrib">High resolution abstract boken backrtound</span>
+			</div>
+		</div>
+		<div id="lside3">
+			<img src="../images/bank.png" alt="">
+		</div>
+		
+	</div>
+	<div id="body">
+		<div id="grad1"></div>
+	</div>
+	<div id="foot">
+		<div id="tips">	
+			<img  id="footpic1" src="../images/foot1.png" alt="">
+			<span class="tipword">Shop onlion with us safety &amp securely</span>
+			<img id="footpic2"src="../images/foot2.png" alt="">
+			<span class="tipword">We ship your orders anywhere!</span>
+			</div>
+		<form  name="search"regform method="post" action="http//www.baidu.com.cn" >
+	 		<input type="text" name="search" id="search2" value="Search website" >
+		 </form>
+			<img  id="Layer152"src="../images/Layer 15 copy .png" alt=" ">
+			<a href="https://www.baidu.com"><img  id="GO2"src="../images/go.png" alt=" "></a>
+		<div id="Information">
+			<a href="http//www.baidu.com"><table id="customers">
+			<tr>
+				<th>Company</th>
+				<th>Categories</th>
+				<th>Information</th>
+				<th>Social Network</th>
+				<th>Contact Us</th>
+			</tr>
+			<tr>
+				<td>Home</td>
+				<td>Lorem ipsum dolor sit</td>
+				<td>My Account</td>
+				<td>My Account</td>
+				<td>Phone:1.234.567.8901</td>
+			</tr>
+			<tr>
+				<td>About Us</td>
+				<td>Amet consectetur</td>
+				<td>Rewards</td>
+				<td>Rewards</td>
+				<td>Toll-Free:1.234.567.8901</td>
+			</tr>
+			<tr>
+				<td>Blog</td>
+				<td>Adipiscin elit</td>
+				<td>Term &amp Conditions</td>
+				<td>Term &amp Conditions</td>
+				<td>Fax:1.234.567.8901</td>
+			</tr>
+			<tr>
+				<td>Latest News </td>
+				<td>Cras suscipit lacus</td>
+				<td>Buying Guide</td>
+				<td>Buying Guide</td>
+				<td>Email:<span id="sendcolor">Send us an email</span></td>
+			</tr>
+			<tr>
+				<td>Login</td>
+				<td>Dapibus ante mattis</td>
+				<td>FAQ</td>
+				<td>FAQ</td>
+				<td> </td>
+			</tr>
+			<tr>
+				<td>Join us</td>
+				<td>Adipiscing nibh placerat</td>
+				<td colspan="2"> </td>
+				<td>MON-SAT 9am to 7:30pm</td>
+			</tr>
+			<tr>
+				<td colspan="4"></td>
+				<td>Sundays,holidays closed</td>
+			</tr>
+			</table></a>
+		</div>
+	</div>
+	
+</body>
+</html>
+
+
+		
